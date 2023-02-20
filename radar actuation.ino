@@ -20,7 +20,7 @@ void loop() {                        // rotatethe servo motor from 15 to 165 deg
     distance = calculateDistance();  //gets the distance for each degree
 
     Serial.print(i);         // prints the current degree
-    Serial.print(".");       // Separates the outputs for the Processing IDE indexing
+    Serial.print(",");       // Separates the outputs for the Processing IDE indexing
     Serial.print(distance);  // Prints the distance
     Serial.print(".");
   }    
